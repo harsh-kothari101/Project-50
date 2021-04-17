@@ -1,0 +1,81 @@
+
+    h1{color:red}
+    h2{color:blue}
+    h3{color:rgb(132, 5, 170)}
+    h4{color:rgb(56, 197, 0)}
+
+    .canvas{
+        border:solid red;
+        border-radius: 10px;
+        background-color:rgb(252, 240, 240)
+    }
+    .canvas img{
+        display: flex;
+        border-radius:50px;
+        border:solid 5px black;
+        background-color: skyblue;
+    }
+    
+    .header{
+        display:block;
+        background-color:rgb(5, 233, 233);
+        border:double rgb(255, 255, 255) ;
+        border-radius:50pc;
+        border: size 50%;;
+    }
+    
+    .menu{
+        display:flex;
+        flex-direction: column;
+        background-color:rgb(96, 224, 224);
+        border:double black;
+        border-radius:10px;
+        font-weight:500px;
+        color:rgb(255, 49, 49);
+    }
+    .grid img{
+        display: flex;
+        flex: wrap;
+        justify-content: space-evenly;
+        border-radius:50px;
+        border:solid 5px black;
+        background-color: skyblue;
+    }
+    .grid{
+        background-color:rgb(120, 250, 222);
+        border:double black;
+        border-radius: 10px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+
+    }
+    .origami{
+        display:flex;
+        flex: wrap;
+        border:double 5px blue;
+        border-radius: 5pc;
+        background-color:rgb(238, 209, 238);
+        width:500px;
+        justify-content:space-evenly;
+    }
+   .points{
+       display:flex;
+       justify-content:space-between;
+       background-color:rgb(139, 230, 230);
+       color:rgb(0, 89, 124);
+       border:double rgb(0, 99, 99);
+       border-radius: 10px;
+   }
+
+   .steps{
+       display:block;
+       border:double;
+       justify-content: space-between;
+   }
+  
+    
+
+
+        
